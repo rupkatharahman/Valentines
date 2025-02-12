@@ -18,7 +18,7 @@
 
         <style>
             body {
-                background: linear-gradient(to bottom, #f5cac3, #f7ede2);
+                background: linear-gradient(to bottom, #ff6fbb, #ffb2db);
             }
             div {
                 text-align: center;
@@ -28,7 +28,7 @@
                 color: #ff477e;
             }
             #yesButton {
-                background-color: #06d6a0;
+                background-color: #d6ff93;
                 transition: transform 0.3s;
                 margin-right: 10px;
                 width: 120px;
@@ -39,7 +39,7 @@
             }
             #no {
                 position: absolute;
-                background-color: #ef476f;
+                background-color: #ff9393;
                 transition: transform 0.3s;
                 margin-left: 10px;
                 width: 120px;
@@ -52,14 +52,14 @@
             document.getElementById("yesButton").addEventListener("click", showAlert);
 
             function showAlert() {
-                alert("I love you! See you soon <3");
+                alert("I love you more baby! You're my Valentine everyday <3");
             }
 
             var yesButton = document.getElementById("yesButton");
             var no = document.getElementById("no");
             var valentineImage = document.getElementById("valentineImage");
 
-            var noTexts = ["Are you sure?", "Please give me a chance pookie", "Pookie please", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry"];
+            var noTexts = ["Rude baby :(", "Please give me a chance", "Please babeee", "Wow I did not expect this :(", "Wait, think about it please :(", "I'm gonna cry"];
             var imageSources = ["https://pbs.twimg.com/media/Fyk7XMnaEAI3PsB.jpg", "https://media.tenor.com/BP70qe8X0J8AAAAe/crycat-crying-cat.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9e71v7IfFLLS_1CfY2it3an-6XH1uROjTfU5c88AwRL8aRkqAYDmoFrm9gpbUqwNameo&usqp=CAU", "https://i.pinimg.com/736x/cb/d8/3b/cbd83b534a315e809a9da2b8cd3ac3bf.jpg"];
 
             no.addEventListener("click", change);
